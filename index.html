@@ -1,1 +1,76 @@
 
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Simple Site</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<h1 class="logo">SimpleSite</h1>
+				<nav class="nav">
+					<a href="#features">Features</a>
+					<a href="#about">About</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container">
+					<h2>Beautiful, minimal starter</h2>
+					<p class="lead">A tiny responsive template with HTML and CSS you can customize.</p>
+					<p><a class="btn" href="#features">See features</a></p>
+				</div>
+			</section>
+
+			<section id="features" class="features container">
+				<article>
+					<h3>Responsive</h3>
+					<p>Works well on phones, tablets, and desktops.</p>
+				</article>
+				<article>
+					<h3>Semantic</h3>
+					<p>Uses modern HTML5 elements for accessibility and clarity.</p>
+				</article>
+				<article>
+					<h3>Easy to Customize</h3>
+					<p>Clean CSS variables make theming straightforward.</p>
+				</article>
+			</section>
+
+			<section id="about" class="about container">
+				<h3>About this template</h3>
+				<p>This is intentionally small so you can extend it for your project.</p>
+			</section>
+
+			<section id="contact" class="contact container">
+				<h3>Contact</h3>
+				<form class="contact-form" action="#" onsubmit="alert('Form submitted (demo)'); return false;">
+					<label>
+						Name
+						<input type="text" name="name" required>
+					</label>
+					<label>
+						Email
+						<input type="email" name="email" required>
+					</label>
+					<label>
+						Message
+						<textarea name="message" rows="4"></textarea>
+					</label>
+					<button type="submit" class="btn">Send</button>
+				</form>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">© SimpleSite — Built with HTML & CSS</div>
+		</footer>
+	</body>
+</html>
+
